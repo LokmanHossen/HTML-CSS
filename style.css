@@ -1,0 +1,29 @@
+.menu{
+	background-color:#1E1E1E;
+	height:50px;
+}
+.menu ul{
+	float: left;
+
+}
+.menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 5px 20px 5px 20px;
+	background-color:#5E4239;
+	margin-top: -5px;
+	margin-right: 10px;
+
+
+}
+.menu ul li.selected{
+	background-color: #008000;
+
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none; 
+}
+.menu ul li a:hover{
+	color: #778899;
+}
